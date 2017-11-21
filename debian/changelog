@@ -1,3 +1,10 @@
+kafka (0.11.0.2-1) unstable; urgency=low
+
+  * Updated kafka to 0.11.0.2
+  * Depend on default-jre-headless
+
+ -- Torsten Fichtner <torsten@bashpipe.de>  Tue, 21 Nov 2017 14:10:00 +0100
+
 kafka (0.11.0.0-1) unstable; urgency=low
 
   * Changed default zookeeper directory into kafka home folder
