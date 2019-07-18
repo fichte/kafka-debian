@@ -7,7 +7,7 @@ Type=simple
 User=kafka
 Group=kafka
 UMask=0077
-Environment="KAFKA_HEAP_OPTS=-Xmx1G -Xms128M"
+Environment=JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64' KAFKA_HEAP_OPTS='-Xmx1G -Xms128M'
 ExecStart=/usr/lib/kafka/bin/kafka-server-start.sh /etc/kafka/server.properties
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
